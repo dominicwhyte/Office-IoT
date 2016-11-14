@@ -1,0 +1,6 @@
+framework module Pods_Relayr_Smart_Office_App {
+  umbrella header "Pods-Relayr Smart Office App-umbrella.h"
+
+  export *
+  module * { export * }
+}

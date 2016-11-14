@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2F52071D3FC9E0008D4C44 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F52061D3FC9E0008D4C44 /* LocationModel.swift */; };
+		5F340B531D421DBB002FE51C /* StatusHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F340B521D421DBB002FE51C /* StatusHeaderView.swift */; };
+		5F340B551D425EF0002FE51C /* AlternateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F340B541D425EF0002FE51C /* AlternateTableViewCell.swift */; };
+		5F35A75B1D48AD13003304C9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A75A1D48AD13003304C9 /* MapView.swift */; };
+		5F9395501D4A2442008D98DD /* Extension+DrawWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93954F1D4A2442008D98DD /* Extension+DrawWindows.swift */; };
+		5F9395521D4A4533008D98DD /* InitialMapViewTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9395511D4A4533008D98DD /* InitialMapViewTopLayer.swift */; };
+		5F9395541D4A54DB008D98DD /* InitialMapViewUnderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9395531D4A54DB008D98DD /* InitialMapViewUnderLayer.swift */; };
+		5FEE94681D33AC0B00EEFB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE94671D33AC0B00EEFB64 /* AppDelegate.swift */; };
+		5FEE946A1D33AC0B00EEFB64 /* WindowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE94691D33AC0B00EEFB64 /* WindowTableViewController.swift */; };
+		5FEE946D1D33AC0B00EEFB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEE946B1D33AC0B00EEFB64 /* Main.storyboard */; };
+		5FEE94701D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE946E1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodeld */; };
+		5FEE94721D33AC0B00EEFB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEE94711D33AC0B00EEFB64 /* Assets.xcassets */; };
+		5FEE94751D33AC0B00EEFB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEE94731D33AC0B00EEFB64 /* LaunchScreen.storyboard */; };
+		5FEE94801D33AC0B00EEFB64 /* Relayr_Smart_Office_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE947F1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppTests.swift */; };
+		5FEE948B1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE948A1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppUITests.swift */; };
+		5FEE949E1D364DD500EEFB64 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE949D1D364DD500EEFB64 /* Model.swift */; };
+		5FEE94A21D37B78000EEFB64 /* WindowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE94A11D37B78000EEFB64 /* WindowTableViewCell.swift */; };
+		5FEE94A41D37E2D800EEFB64 /* SwipePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE94A31D37E2D800EEFB64 /* SwipePageViewController.swift */; };
+		5FEE94A81D38EAD100EEFB64 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE94A71D38EAD100EEFB64 /* MapViewController.swift */; };
+		5FF3478F1D53561300489954 /* MapViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3478E1D53561300489954 /* MapViewFooter.swift */; };
+		5FF801951D46651A002C8540 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF801941D46651A002C8540 /* MasterViewController.swift */; };
+		5FF801971D475BFE002C8540 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF801961D475BFE002C8540 /* ContainerView.swift */; };
+		5FFDD4381D5E1A9B0002CBBF /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFDD4371D5E1A9B0002CBBF /* Map.swift */; };
+		DE0A3D922220EBF1C4D66172 /* Pods_Relayr_Smart_Office_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D4F5401BF7A5517602B5E6 /* Pods_Relayr_Smart_Office_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FEE947C1D33AC0B00EEFB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEE945C1D33AC0B00EEFB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEE94631D33AC0B00EEFB64;
+			remoteInfo = "Relayr Smart Office App";
+		};
+		5FEE94871D33AC0B00EEFB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEE945C1D33AC0B00EEFB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEE94631D33AC0B00EEFB64;
+			remoteInfo = "Relayr Smart Office App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2F52061D3FC9E0008D4C44 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		5F340B521D421DBB002FE51C /* StatusHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusHeaderView.swift; sourceTree = "<group>"; };
+		5F340B541D425EF0002FE51C /* AlternateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateTableViewCell.swift; sourceTree = "<group>"; };
+		5F35A75A1D48AD13003304C9 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5F93954F1D4A2442008D98DD /* Extension+DrawWindows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+DrawWindows.swift"; sourceTree = "<group>"; };
+		5F9395511D4A4533008D98DD /* InitialMapViewTopLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialMapViewTopLayer.swift; sourceTree = "<group>"; };
+		5F9395531D4A54DB008D98DD /* InitialMapViewUnderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialMapViewUnderLayer.swift; sourceTree = "<group>"; };
+		5FEE94641D33AC0B00EEFB64 /* Office IoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Office IoT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEE94671D33AC0B00EEFB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FEE94691D33AC0B00EEFB64 /* WindowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowTableViewController.swift; sourceTree = "<group>"; };
+		5FEE946C1D33AC0B00EEFB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FEE946F1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Relayr_Smart_Office_App.xcdatamodel; sourceTree = "<group>"; };
+		5FEE94711D33AC0B00EEFB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FEE94741D33AC0B00EEFB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FEE94761D33AC0B00EEFB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEE947B1D33AC0B00EEFB64 /* Office IoT.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office IoT.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEE947F1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relayr_Smart_Office_AppTests.swift; sourceTree = "<group>"; };
+		5FEE94811D33AC0B00EEFB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEE94861D33AC0B00EEFB64 /* Office IoT.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office IoT.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEE948A1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relayr_Smart_Office_AppUITests.swift; sourceTree = "<group>"; };
+		5FEE948C1D33AC0B00EEFB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEE949D1D364DD500EEFB64 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5FEE94A11D37B78000EEFB64 /* WindowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowTableViewCell.swift; sourceTree = "<group>"; };
+		5FEE94A31D37E2D800EEFB64 /* SwipePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipePageViewController.swift; sourceTree = "<group>"; };
+		5FEE94A71D38EAD100EEFB64 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5FF3478E1D53561300489954 /* MapViewFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewFooter.swift; sourceTree = "<group>"; };
+		5FF801941D46651A002C8540 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		5FF801961D475BFE002C8540 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		5FFDD4371D5E1A9B0002CBBF /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ../../../../Map.swift; sourceTree = "<group>"; };
+		70ABCDA7E85E9DD5CBDA487A /* Pods-Relayr Smart Office App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relayr Smart Office App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relayr Smart Office App/Pods-Relayr Smart Office App.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D4F5401BF7A5517602B5E6 /* Pods_Relayr_Smart_Office_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relayr_Smart_Office_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DD59F4945191D5A4724C57 /* Pods_Relayr_Smart_Office_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relayr_Smart_Office_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CE987C267FC873FAAB57E6 /* Pods-Relayr Smart Office App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relayr Smart Office App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relayr Smart Office App/Pods-Relayr Smart Office App.release.xcconfig"; sourceTree = "<group>"; };
+		E95DA16AE328DF3386E3D4D1 /* Pods_Relayr_Smart_Office_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relayr_Smart_Office_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FEE94611D33AC0B00EEFB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0A3D922220EBF1C4D66172 /* Pods_Relayr_Smart_Office_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94781D33AC0B00EEFB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94831D33AC0B00EEFB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C7F65E9D13F9BC6E6D47967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4F5401BF7A5517602B5E6 /* Pods_Relayr_Smart_Office_App.framework */,
+				C4DD59F4945191D5A4724C57 /* Pods_Relayr_Smart_Office_AppTests.framework */,
+				E95DA16AE328DF3386E3D4D1 /* Pods_Relayr_Smart_Office_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FEE945B1D33AC0B00EEFB64 = {
+			isa = PBXGroup;
+			children = (
+				5FEE94661D33AC0B00EEFB64 /* Relayr Smart Office App */,
+				5FEE947E1D33AC0B00EEFB64 /* Relayr Smart Office AppTests */,
+				5FEE94891D33AC0B00EEFB64 /* Relayr Smart Office AppUITests */,
+				5FEE94651D33AC0B00EEFB64 /* Products */,
+				FD2E7B124D55D79B8E67A524 /* Pods */,
+				2C7F65E9D13F9BC6E6D47967 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FEE94651D33AC0B00EEFB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE94641D33AC0B00EEFB64 /* Office IoT.app */,
+				5FEE947B1D33AC0B00EEFB64 /* Office IoT.xctest */,
+				5FEE94861D33AC0B00EEFB64 /* Office IoT.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FEE94661D33AC0B00EEFB64 /* Relayr Smart Office App */ = {
+			isa = PBXGroup;
+			children = (
+				5FFDD4121D5DBA5A0002CBBF /* Master View Controller */,
+				5FFDD4131D5DBA7E0002CBBF /* Window View Controller */,
+				5FFDD4141D5DBA9E0002CBBF /* Map View Controller */,
+				5FFDD4151D5DBAD10002CBBF /* Model */,
+				5FEE949C1D364BE800EEFB64 /* Supporting Files */,
+				5FEE946B1D33AC0B00EEFB64 /* Main.storyboard */,
+			);
+			path = "Relayr Smart Office App";
+			sourceTree = "<group>";
+		};
+		5FEE947E1D33AC0B00EEFB64 /* Relayr Smart Office AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE947F1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppTests.swift */,
+				5FEE94811D33AC0B00EEFB64 /* Info.plist */,
+			);
+			path = "Relayr Smart Office AppTests";
+			sourceTree = "<group>";
+		};
+		5FEE94891D33AC0B00EEFB64 /* Relayr Smart Office AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE948A1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppUITests.swift */,
+				5FEE948C1D33AC0B00EEFB64 /* Info.plist */,
+			);
+			path = "Relayr Smart Office AppUITests";
+			sourceTree = "<group>";
+		};
+		5FEE949C1D364BE800EEFB64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE94761D33AC0B00EEFB64 /* Info.plist */,
+				5FEE94671D33AC0B00EEFB64 /* AppDelegate.swift */,
+				5FEE94731D33AC0B00EEFB64 /* LaunchScreen.storyboard */,
+				5FEE946E1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodeld */,
+				5FEE94711D33AC0B00EEFB64 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FFDD4121D5DBA5A0002CBBF /* Master View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FF801941D46651A002C8540 /* MasterViewController.swift */,
+				5FEE94A31D37E2D800EEFB64 /* SwipePageViewController.swift */,
+				5F340B521D421DBB002FE51C /* StatusHeaderView.swift */,
+			);
+			name = "Master View Controller";
+			sourceTree = "<group>";
+		};
+		5FFDD4131D5DBA7E0002CBBF /* Window View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F340B541D425EF0002FE51C /* AlternateTableViewCell.swift */,
+				5FEE94A11D37B78000EEFB64 /* WindowTableViewCell.swift */,
+				5FEE94691D33AC0B00EEFB64 /* WindowTableViewController.swift */,
+			);
+			name = "Window View Controller";
+			sourceTree = "<group>";
+		};
+		5FFDD4141D5DBA9E0002CBBF /* Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F35A75A1D48AD13003304C9 /* MapView.swift */,
+				5FEE94A71D38EAD100EEFB64 /* MapViewController.swift */,
+				5FF3478E1D53561300489954 /* MapViewFooter.swift */,
+				5FFDD4371D5E1A9B0002CBBF /* Map.swift */,
+				5F9395511D4A4533008D98DD /* InitialMapViewTopLayer.swift */,
+				5F9395531D4A54DB008D98DD /* InitialMapViewUnderLayer.swift */,
+				5F93954F1D4A2442008D98DD /* Extension+DrawWindows.swift */,
+				5FF801961D475BFE002C8540 /* ContainerView.swift */,
+			);
+			name = "Map View Controller";
+			sourceTree = "<group>";
+		};
+		5FFDD4151D5DBAD10002CBBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE949D1D364DD500EEFB64 /* Model.swift */,
+				5F2F52061D3FC9E0008D4C44 /* LocationModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD2E7B124D55D79B8E67A524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70ABCDA7E85E9DD5CBDA487A /* Pods-Relayr Smart Office App.debug.xcconfig */,
+				D8CE987C267FC873FAAB57E6 /* Pods-Relayr Smart Office App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FEE94631D33AC0B00EEFB64 /* Office IoT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEE948F1D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoT" */;
+			buildPhases = (
+				498F57B867DF26BC41D6B692 /* [CP] Check Pods Manifest.lock */,
+				5FEE94601D33AC0B00EEFB64 /* Sources */,
+				5FEE94611D33AC0B00EEFB64 /* Frameworks */,
+				5FEE94621D33AC0B00EEFB64 /* Resources */,
+				C4335A6ACCDEE17D5ECEDB7B /* [CP] Embed Pods Frameworks */,
+				F934C1EEAED5F8158DFD30BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Office IoT";
+			productName = "Relayr Smart Office App";
+			productReference = 5FEE94641D33AC0B00EEFB64 /* Office IoT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FEE947A1D33AC0B00EEFB64 /* Office IoTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEE94921D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoTTests" */;
+			buildPhases = (
+				E07B81205933A437B6521CB4 /* [CP] Check Pods Manifest.lock */,
+				5FEE94771D33AC0B00EEFB64 /* Sources */,
+				5FEE94781D33AC0B00EEFB64 /* Frameworks */,
+				5FEE94791D33AC0B00EEFB64 /* Resources */,
+				0FFFE74A7ABA66A9DD90EB2D /* [CP] Embed Pods Frameworks */,
+				6450393D62AA3FD4D60B792D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEE947D1D33AC0B00EEFB64 /* PBXTargetDependency */,
+			);
+			name = "Office IoTTests";
+			productName = "Relayr Smart Office AppTests";
+			productReference = 5FEE947B1D33AC0B00EEFB64 /* Office IoT.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FEE94851D33AC0B00EEFB64 /* Office IoTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEE94951D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoTUITests" */;
+			buildPhases = (
+				87AC23F379622CFE8D0478CB /* [CP] Check Pods Manifest.lock */,
+				5FEE94821D33AC0B00EEFB64 /* Sources */,
+				5FEE94831D33AC0B00EEFB64 /* Frameworks */,
+				5FEE94841D33AC0B00EEFB64 /* Resources */,
+				27CB6FCE2B8AF1BAC2BB10D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEE94881D33AC0B00EEFB64 /* PBXTargetDependency */,
+			);
+			name = "Office IoTUITests";
+			productName = "Relayr Smart Office AppUITests";
+			productReference = 5FEE94861D33AC0B00EEFB64 /* Office IoT.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FEE945C1D33AC0B00EEFB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Relayr;
+				TargetAttributes = {
+					5FEE94631D33AC0B00EEFB64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 23Q5KM3Q2Z;
+					};
+					5FEE947A1D33AC0B00EEFB64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5FEE94631D33AC0B00EEFB64;
+					};
+					5FEE94851D33AC0B00EEFB64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5FEE94631D33AC0B00EEFB64;
+					};
+				};
+			};
+			buildConfigurationList = 5FEE945F1D33AC0B00EEFB64 /* Build configuration list for PBXProject "Office IoT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FEE945B1D33AC0B00EEFB64;
+			productRefGroup = 5FEE94651D33AC0B00EEFB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FEE94631D33AC0B00EEFB64 /* Office IoT */,
+				5FEE947A1D33AC0B00EEFB64 /* Office IoTTests */,
+				5FEE94851D33AC0B00EEFB64 /* Office IoTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FEE94621D33AC0B00EEFB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEE94751D33AC0B00EEFB64 /* LaunchScreen.storyboard in Resources */,
+				5FEE94721D33AC0B00EEFB64 /* Assets.xcassets in Resources */,
+				5FEE946D1D33AC0B00EEFB64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94791D33AC0B00EEFB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94841D33AC0B00EEFB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFFE74A7ABA66A9DD90EB2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relayr Smart Office AppTests/Pods-Relayr Smart Office AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CB6FCE2B8AF1BAC2BB10D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relayr Smart Office AppUITests/Pods-Relayr Smart Office AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		498F57B867DF26BC41D6B692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6450393D62AA3FD4D60B792D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relayr Smart Office AppTests/Pods-Relayr Smart Office AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AC23F379622CFE8D0478CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4335A6ACCDEE17D5ECEDB7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relayr Smart Office App/Pods-Relayr Smart Office App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07B81205933A437B6521CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F934C1EEAED5F8158DFD30BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relayr Smart Office App/Pods-Relayr Smart Office App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FEE94601D33AC0B00EEFB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9395541D4A54DB008D98DD /* InitialMapViewUnderLayer.swift in Sources */,
+				5F2F52071D3FC9E0008D4C44 /* LocationModel.swift in Sources */,
+				5F340B531D421DBB002FE51C /* StatusHeaderView.swift in Sources */,
+				5FF801951D46651A002C8540 /* MasterViewController.swift in Sources */,
+				5FEE946A1D33AC0B00EEFB64 /* WindowTableViewController.swift in Sources */,
+				5FEE949E1D364DD500EEFB64 /* Model.swift in Sources */,
+				5F9395521D4A4533008D98DD /* InitialMapViewTopLayer.swift in Sources */,
+				5F9395501D4A2442008D98DD /* Extension+DrawWindows.swift in Sources */,
+				5FEE94701D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodeld in Sources */,
+				5FEE94A21D37B78000EEFB64 /* WindowTableViewCell.swift in Sources */,
+				5F35A75B1D48AD13003304C9 /* MapView.swift in Sources */,
+				5F340B551D425EF0002FE51C /* AlternateTableViewCell.swift in Sources */,
+				5FF801971D475BFE002C8540 /* ContainerView.swift in Sources */,
+				5FF3478F1D53561300489954 /* MapViewFooter.swift in Sources */,
+				5FEE94A41D37E2D800EEFB64 /* SwipePageViewController.swift in Sources */,
+				5FEE94681D33AC0B00EEFB64 /* AppDelegate.swift in Sources */,
+				5FFDD4381D5E1A9B0002CBBF /* Map.swift in Sources */,
+				5FEE94A81D38EAD100EEFB64 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94771D33AC0B00EEFB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEE94801D33AC0B00EEFB64 /* Relayr_Smart_Office_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEE94821D33AC0B00EEFB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEE948B1D33AC0B00EEFB64 /* Relayr_Smart_Office_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FEE947D1D33AC0B00EEFB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEE94631D33AC0B00EEFB64 /* Office IoT */;
+			targetProxy = 5FEE947C1D33AC0B00EEFB64 /* PBXContainerItemProxy */;
+		};
+		5FEE94881D33AC0B00EEFB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEE94631D33AC0B00EEFB64 /* Office IoT */;
+			targetProxy = 5FEE94871D33AC0B00EEFB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FEE946B1D33AC0B00EEFB64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEE946C1D33AC0B00EEFB64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FEE94731D33AC0B00EEFB64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEE94741D33AC0B00EEFB64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FEE948D1D33AC0B00EEFB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FEE948E1D33AC0B00EEFB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FEE94901D33AC0B00EEFB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70ABCDA7E85E9DD5CBDA487A /* Pods-Relayr Smart Office App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Whyte (WRZF889DQU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Relayr Smart Office App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.relayr.OfficeIoT;
+				PRODUCT_NAME = "Office IoT";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FEE94911D33AC0B00EEFB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CE987C267FC873FAAB57E6 /* Pods-Relayr Smart Office App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dominic Whyte (23Q5KM3Q2Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Relayr Smart Office App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.relayr.OfficeIoT;
+				PRODUCT_NAME = "Office IoT";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FEE94931D33AC0B00EEFB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Relayr Smart Office AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relayr.Relayr-Smart-Office-AppTests";
+				PRODUCT_NAME = "Office IoT";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office IoT.app/Office IoT";
+			};
+			name = Debug;
+		};
+		5FEE94941D33AC0B00EEFB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Relayr Smart Office AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relayr.Relayr-Smart-Office-AppTests";
+				PRODUCT_NAME = "Office IoT";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office IoT.app/Office IoT";
+			};
+			name = Release;
+		};
+		5FEE94961D33AC0B00EEFB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Relayr Smart Office AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relayr.Relayr-Smart-Office-AppUITests";
+				PRODUCT_NAME = "Office IoT";
+				TEST_TARGET_NAME = "Relayr Smart Office App";
+			};
+			name = Debug;
+		};
+		5FEE94971D33AC0B00EEFB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Relayr Smart Office AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relayr.Relayr-Smart-Office-AppUITests";
+				PRODUCT_NAME = "Office IoT";
+				TEST_TARGET_NAME = "Relayr Smart Office App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FEE945F1D33AC0B00EEFB64 /* Build configuration list for PBXProject "Office IoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEE948D1D33AC0B00EEFB64 /* Debug */,
+				5FEE948E1D33AC0B00EEFB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEE948F1D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEE94901D33AC0B00EEFB64 /* Debug */,
+				5FEE94911D33AC0B00EEFB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEE94921D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEE94931D33AC0B00EEFB64 /* Debug */,
+				5FEE94941D33AC0B00EEFB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEE94951D33AC0B00EEFB64 /* Build configuration list for PBXNativeTarget "Office IoTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEE94961D33AC0B00EEFB64 /* Debug */,
+				5FEE94971D33AC0B00EEFB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FEE946E1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FEE946F1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodel */,
+			);
+			currentVersion = 5FEE946F1D33AC0B00EEFB64 /* Relayr_Smart_Office_App.xcdatamodel */;
+			path = Relayr_Smart_Office_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FEE945C1D33AC0B00EEFB64 /* Project object */;
+}
